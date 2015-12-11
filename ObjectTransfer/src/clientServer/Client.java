@@ -21,7 +21,7 @@ public class Client {
 
 			        SocketChannel sChannel = SocketChannel.open();
 			        sChannel.configureBlocking(true);
-			        if (sChannel.connect(new InetSocketAddress("205.178.20.186", 3003))) {
+			        if (sChannel.connect(new InetSocketAddress("X.X.X.X", XXXX))) {
 
 			            ObjectInputStream ois = 
 			                     new ObjectInputStream(sChannel.socket().getInputStream());
